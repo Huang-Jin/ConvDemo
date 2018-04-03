@@ -1,0 +1,41 @@
+﻿生成启动时间为 2018/4/3 15:44:44。
+     1>项目“G:\Programming\C++\ConvDemo\ConvDemo\ConvDemo.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\Programming\opencv-2.4.13\build\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConvDemo.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConvDemo.cpp
+         ConvDemo.cpp
+     1>g:\programming\c++\convdemo\convdemo\convdemo.cpp(192): warning C4244: “=”: 从“float”转换到“uchar”，可能丢失数据
+                 g:\programming\c++\convdemo\convdemo\convdemo.cpp(275): 参见对正在编译的函数 模板 实例化“DType *Convolution2D<DType>(DType *,int,int,float *,int,int)”的引用
+                 with
+                 [
+                     DType=uchar
+                 ]
+                 g:\programming\c++\convdemo\convdemo\convdemo.cpp(312): 参见对正在编译的函数 模板 实例化“DType *OrientConv<uchar>(DType *,int,int,int,float,float)”的引用
+                 with
+                 [
+                     DType=uchar
+                 ]
+     1>g:\programming\c++\convdemo\convdemo\convdemo.cpp(103): warning C4244: “=”: 从“float”转换到“uchar”，可能丢失数据
+                 g:\programming\c++\convdemo\convdemo\convdemo.cpp(221): 参见对正在编译的函数 模板 实例化“void CalMat<DType>(DType *,int,int,float *,int,DType *)”的引用
+                 with
+                 [
+                     DType=uchar
+                 ]
+                 g:\programming\c++\convdemo\convdemo\convdemo.cpp(247): 参见对正在编译的函数 模板 实例化“DType *Convolution2D_Fast<DType>(DType *,int,int,float *,int *,int,int,int)”的引用
+                 with
+                 [
+                     DType=uchar
+                 ]
+                 g:\programming\c++\convdemo\convdemo\convdemo.cpp(307): 参见对正在编译的函数 模板 实例化“DType *OrientConv_Fast<uchar>(DType *,int,int,int,float,float)”的引用
+                 with
+                 [
+                     DType=uchar
+                 ]
+       Link:
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Programming\C++\ConvDemo\Debug\ConvDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:"G:\Programming\opencv-2.4.13\build\x86\vc12\lib" opencv_imgproc2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_legacy2413d.lib opencv_ml2413d.lib opencv_nonfree2413d.lib opencv_objdetect2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Programming\C++\ConvDemo\Debug\ConvDemo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Programming\C++\ConvDemo\Debug\ConvDemo.lib" /MACHINE:X86 Debug\ConvDemo.obj
+         Debug\stdafx.obj
+         ConvDemo.vcxproj -> G:\Programming\C++\ConvDemo\Debug\ConvDemo.exe
+     1>已完成生成项目“G:\Programming\C++\ConvDemo\ConvDemo\ConvDemo.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02
