@@ -310,6 +310,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		//double t = (double)getTickCount();
 		orient = (float)2 * PI / (nbSector)*n;
 		uchar *result_fast = OrientConv_Fast(img.data, data_h, data_w, scale, orient, widthSector);
+		delete[] result_fast;
 		//t = ((double)getTickCount() - t) / getTickFrequency();
 		//cout << "The " << n << "th convolution_fast costs " << t * 1000 << " milliseconds.\r\n";
 	}
@@ -321,6 +322,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	{
 		orient = (float)2 * PI / (nbSector)*n;
 		uchar *result = OrientConv(img.data, data_h, data_w, scale, orient, widthSector);
+		delete[] result;
 	}
 	total = ((double)getTickCount() - total) / getTickFrequency();
 	cout << "Convolution costs total " << total * 1000 << " milliseconds.\r\n";
@@ -349,8 +351,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	//imshow("result_fast", img_result_fast);
 	//waitKey(0);
 
-	//delete[] result;
-	//delete[] result_fast;
 
 	return 0;
 }

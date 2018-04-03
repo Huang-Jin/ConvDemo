@@ -1,45 +1,5 @@
-﻿生成启动时间为 2018/4/3 16:09:32。
-     1>项目“G:\Programming\C++\ConvDemo\ConvDemo\ConvDemo.vcxproj”在节点 2 上(Build 个目标)。
-     1>ClCompile:
-         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"G:\Programming\opencv-2.4.13\build\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ConvDemo.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ConvDemo.cpp
-         ConvDemo.cpp
-     1>ConvDemo.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>ConvDemo.cpp(322): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-     1>ConvDemo.cpp(192): warning C4244: “=”: 从“float”转换到“uchar”，可能丢失数据
-                 ConvDemo.cpp(216): 参见对正在编译的函数 模板 实例化“DType *Convolution2D<DType>(DType *,int,int,float *,int,int)”的引用
-                 with
-                 [
-                     DType=uchar
-                 ]
-                 ConvDemo.cpp(323): 参见对正在编译的函数 模板 实例化“DType *OrientConv<uchar>(DType *,int,int,int,float,float)”的引用
-                 with
-                 [
-                     DType=uchar
-                 ]
-     1>ConvDemo.cpp(103): warning C4244: “=”: 从“float”转换到“uchar”，可能丢失数据
-                 ConvDemo.cpp(249): 参见对正在编译的函数 模板 实例化“void CalMat<DType>(DType *,int,int,float *,int,DType *)”的引用
-                 with
-                 [
-                     DType=uchar
-                 ]
-                 ConvDemo.cpp(275): 参见对正在编译的函数 模板 实例化“DType *Convolution2D_Fast<DType>(DType *,int,int,float *,int *,int,int,int)”的引用
-                 with
-                 [
-                     DType=uchar
-                 ]
-                 ConvDemo.cpp(312): 参见对正在编译的函数 模板 实例化“DType *OrientConv_Fast<uchar>(DType *,int,int,int,float,float)”的引用
-                 with
-                 [
-                     DType=uchar
-                 ]
-       Link:
-         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Programming\C++\ConvDemo\Release\ConvDemo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"G:\Programming\opencv-2.4.13\build\x86\vc12\lib" opencv_imgproc2413.lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Programming\C++\ConvDemo\Release\ConvDemo.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Programming\C++\ConvDemo\Release\ConvDemo.lib" /MACHINE:X86 /SAFESEH Release\ConvDemo.obj
-         Release\stdafx.obj
-         正在生成代码
-         已完成代码的生成
-         ConvDemo.vcxproj -> G:\Programming\C++\ConvDemo\Release\ConvDemo.exe
-     1>已完成生成项目“G:\Programming\C++\ConvDemo\ConvDemo\ConvDemo.vcxproj”(Build 个目标)的操作。
+﻿生成启动时间为 2018/4/3 16:37:35。
 
 生成成功。
 
-已用时间 00:00:01.24
+已用时间 00:00:00.01
